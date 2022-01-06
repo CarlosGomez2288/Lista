@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="ing/1.png" type="image/x-icon">
+    <title>Lista de Tarea</title>
+  </head>
+  <body>
+    <section class="container">
+        <!-- div de las fechas -->
+      <div class="date">
+        <div class="dateRigth">
+          <div id="dateNumber"></div>
+          <div>
+            <div id="dateMonth"></div>
+            <div id="dateYear"></div>
+          </div>
+        </div>
+        <div id="dateText"></div>
+      </div>
+      <!-- div del input, botones, ul y li -->
+      <div class="custom-field">
+        <input type="text" id="tarea" name="tarea" required />
+        <span class="placeholder">Add Task</span>
+        <button id="btn">
+          <span>Agregar</span>
+          <div class="liquid"></div>
+        </button>
+      </div>
+      <ul id="elementos"></ul>
+    </section>
+    <div class="boton"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
